@@ -31,9 +31,15 @@ Text = "ATCATTGGA"
 k = 3
 result = FrequencyMap(Text, k)
 print(result)
+# Output: {'ATC': 0, 'TCA': 0, 'CAT': 0, 'ATT': 0, 'TTG': 0, 'TGG': 0, 'GGA': 0}
 
 Text = "GATCCAGATCCCCATAGGATCCAGATCCCCATAC"
 k = 2
+result = FrequencyMap(Text, k)
+print(result)
+# Output:{'GA': 0, 'AT': 0, 'TC': 0, 'CC': 0, 'CA': 0, 'AG': 0, 'TA': 0, 'GG': 0, 'AC': 0}
+Text = "AAATTTGGGCCC"
+K = 3
 result = FrequencyMap(Text, k)
 print(result)
 
